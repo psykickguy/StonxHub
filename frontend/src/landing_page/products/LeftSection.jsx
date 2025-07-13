@@ -3,7 +3,7 @@ import React from "react";
 function LeftSection({
   imageURL,
   productName,
-  productDescription,
+  productDesription,
   tryDemo,
   learnMore,
   googlePlay,
@@ -17,7 +17,7 @@ function LeftSection({
         </div>
         <div className="col-6 p-5 mt-5">
           <h1>{productName}</h1>
-          <p>{productDescription}</p>
+          <p>{productDesription}</p>
           <div>
             <a href={tryDemo}>Try Demo</a>
             <a href={learnMore} style={{ marginLeft: "50px" }}>
@@ -30,7 +30,7 @@ function LeftSection({
             </a>
             <a href={appStore}>
               <img
-                src="media/images/appStoreBadge.svg"
+                src="media/images/appstoreBadge.svg"
                 style={{ marginLeft: "50px" }}
               />
             </a>
